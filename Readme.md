@@ -69,7 +69,7 @@ Pour arrêter tous les services, utilisez la commande `docker-compose down`.
 
 ## Configuration
 
-Les mots de passe des utilisateurs intégrés (comme `elastic`, `logstash_internal`, `kibana_system`, etc.) sont définis dans le fichier **.env** par defaut user= elastic et password= elastic.
+Les mots de passe des utilisateurs intégrés (comme `elastic`, `logstash_internal`, `kibana_system`, etc.) sont définis dans le fichier **.env** par defaut user= elastic et password= passer.
 
 ## Réseaux et Volumes
 
