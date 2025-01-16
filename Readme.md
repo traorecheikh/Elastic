@@ -35,11 +35,11 @@ Le service `setup` initialise les utilisateurs et rôles dans Elasticsearch. Ce 
 
 ### Service Elasticsearch
 
-Démarre Elasticsearch, la base de données du stack. Il écoute sur les ports **9200** et **9300**.
+Démarre Elasticsearch, la base de données du stack. Il écoute sur le ports **9200**.
 
 ### Service Logstash
 
-Logstash collecte et envoie des données vers Elasticsearch. Il écoute sur les ports **5044** et **9600**.
+Logstash collecte et envoie des données vers Elasticsearch. Il écoute sur les ports **5044** et **50000**.
 
 ### Service Kibana
 
