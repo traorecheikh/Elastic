@@ -1,6 +1,6 @@
-# Guide d'Installation du Stack Elastic
+# Guide d'Installation du Stack ELK
 
-Ce guide vous aide à configurer le stack Elastic (Elasticsearch, Logstash, Kibana) avec Docker Compose. Ce stack inclut des outils pour la gestion et l'analyse des données.
+Ce guide vous aide à configurer le stack ELK (Elasticsearch, Logstash, Kibana) avec Docker Compose. Ce stack inclut des outils pour la gestion et l'analyse des données.
 
 ## Prérequis
 
