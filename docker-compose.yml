@@ -5,6 +5,7 @@ services:
 # Il faut utiliser le profil 'setup' pour l'exécuter.
 
   setup:
+    container_name: setup
     profiles:
       - setup
     build:
@@ -31,6 +32,7 @@ services:
       - elasticsearch
 
   elasticsearch:
+    container_name: elasticsearch
     build:
       context: elasticsearch/
       args:
@@ -51,6 +53,7 @@ services:
     restart: unless-stopped
 
   logstash:
+    container_name: logstash
     build:
       context: logstash/
       args:
@@ -58,6 +61,7 @@ services:
     volumes:
       - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro,Z
       - ./logstash/pipeline:/usr/share/logstash/pipeline:ro,Z
+      - ./../:/logs:ro
     ports:
       - 5044:5044
       - 50000:50000/tcp
@@ -73,6 +77,7 @@ services:
     restart: unless-stopped
 
   kibana:
+    container_name: kibana
     build:
       context: kibana/
       args:
