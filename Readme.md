@@ -4,8 +4,8 @@ Ce guide vous aide à configurer le stack ELK (Elasticsearch, Logstash, Kibana) 
 
 ## Prérequis
 
-- **Docker** et **Docker Compose** doivent être installés sur votre machine.
-- Connaissances de base sur Docker et Elasticsearch recommandées.
+- **Docker** doit être installés sur votre machine.
+- Connaissances de base sur Docker et ELK recommandées.
 
 ## Cloner le Repository
 
